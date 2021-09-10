@@ -1,0 +1,26 @@
+.about {
+  background: #1d1d1e;
+  padding: 70px 0;
+  &__wrapper {
+    margin-top: 68px;
+    display: grid;
+    grid-template-columns: repeat(2, 450px);
+    grid-template-rows: repeat(2,300px);
+    column-gap: 30px;
+    row-gap: 50px;
+  }
+  &__item {
+    position: relative;
+  }
+  &__text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+  }
+}

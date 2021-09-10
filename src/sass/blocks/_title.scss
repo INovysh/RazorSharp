@@ -1,0 +1,70 @@
+.title {
+  position: relative;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-210%, -50%);
+    content: "";
+    display: block;
+    width: 150px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  &::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(110%, -50%);
+    content: "";
+    display: block;
+    width: 150px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  &__service {
+    &::before {
+      transform: translate(60%, -50%);
+    }
+    &::after {
+      transform: translate(-160%, -50%);
+    }
+  }
+  &__master {
+    &::before {
+      transform: translate(65%, -50%);
+    }
+    &::after {
+      transform: translate(-165%, -50%);
+    }
+  }
+  &__sale {
+    &::before {
+      transform: translate(55%, -50%);
+    }
+    &::after {
+      transform: translate(-155%, -50%);
+    }
+  }
+  &__about {
+    &::before {
+      transform: translate(45%, -50%);
+    }
+    &::after {
+      transform: translate(-145%, -50%);
+    }
+  }
+  &__form {
+    &::before {
+      transform: translate(160%, -50%);
+    }
+    &::after {
+      transform: translate(-260%, -50%);
+    }
+  }
+}

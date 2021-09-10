@@ -1,0 +1,30 @@
+.btn {
+    height: 60px;
+    background: #d0cc30;
+    border-radius: 9px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  &_250w {
+    width: 250px;    
+  }
+  &_64mt{
+      margin-top: 64px;
+  }
+  &_center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  &_220w{
+      width: 220px;
+      margin-top: 20px;
+  }
+  &_50h{
+    height: 50px;
+  }
+}

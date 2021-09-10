@@ -1,0 +1,53 @@
+.service {
+  background: rgba(14, 14, 15, 0.94);
+  padding: 70px 0;
+  &__wrapper {
+    height: 785px;
+    width: 695px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    padding-left: 0;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  &__item:not(:first-child)::before {
+    position: absolute;
+    top: -17px;
+    left: 0;
+    content: "";
+    display: block;
+    width: 694.21px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  &__descr{
+      max-width: 560px;
+  }
+  &__subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #ffffff;
+  }
+  &__text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &__price {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #f1df3a;
+  }
+}

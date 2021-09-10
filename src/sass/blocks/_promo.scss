@@ -1,0 +1,82 @@
+.humburger {
+  display: none;
+}
+.promo {
+  position: relative;
+  background: url("../img/main_bg.jpg") center center / cover no-repeat #302c2c;
+  padding: 43px 0 227px 0;
+  &__info {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__close{
+    display: none;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 387px;
+    a {
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 19px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+  }
+  &__contacts {
+    width: 270px;
+  }
+  &__descr {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__social{
+    display: flex;
+    justify-content: space-between;
+    a{
+      margin-right: 5px;
+    }
+  }
+  &__tel {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fdfdfd;
+  }
+  &__mobile {
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+  }
+  &__address {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  h1 {
+    margin-top: 165px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 120%;
+    color: #ffffff;
+  }
+  p {
+    margin-top: 7px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+  button {
+    margin-top: 48px;
+  }
+  .hamburger{
+    display: none;
+  }
+}

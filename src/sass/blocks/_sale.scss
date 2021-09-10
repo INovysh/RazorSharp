@@ -1,0 +1,32 @@
+.sale {
+  background: #302c2c;
+  padding: 70px 0;
+  &__wrapper {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    position: relative;
+    width: 452px;
+    height: 130px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    border-radius: 9px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #ffffff;
+    span {
+      color: #d0cc30;
+    }
+  }
+  &__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 380px;
+    transform: translate(-50%, -50%);
+  }
+}
