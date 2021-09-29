@@ -39,6 +39,25 @@ a {
   width: 55px;
   height: 55px;
 }
+.modal {
+  background: rgba(rgba(75, 40, 19, 0.89), 0.65);
+  display: none;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  justify-content: center;
+  align-items: center;
+  .close {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    img {
+      width: 45px;
+      height: 45px;
+    }
+  }
+}
 
 @import "blocks/promo";
 @import "blocks/buttons";

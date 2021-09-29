@@ -126,7 +126,7 @@
         </div>
         <h1>Razor Sharp</h1>
         <p>Барбершоп</p>
-        <button class="btn btn_250w">Записаться онлайн</button>
+        <button class="btn btn_250w btn_modal">Записаться онлайн</button>
       </div>
     </section>
     <section class="advantages">
@@ -244,7 +244,7 @@
             <div class="service__price">1 200 ₽</div>
           </li>
         </ul>
-        <button class="btn btn_250w btn_64mt btn_center">
+        <button class="btn btn_250w btn_64mt btn_center btn_modal">
           Записаться онлайн
         </button>
       </div>
@@ -257,19 +257,25 @@
             <img src="img/master_Max.jpg" alt="Max" />
             <div class="master__name">Максим</div>
             <div class="master__descr">Старший барбер</div>
-            <button class="btn btn_220w btn_center">записаться</button>
+            <button class="btn btn_220w btn_center btn_modal">
+              записаться
+            </button>
           </div>
           <div class="master__item">
             <img src="img/master_Jura.jpg" alt="Jura" />
             <div class="master__name">Юра</div>
             <div class="master__descr">Барбер</div>
-            <button class="btn btn_220w btn_center">записаться</button>
+            <button class="btn btn_220w btn_center btn_modal">
+              записаться
+            </button>
           </div>
           <div class="master__item">
             <img src="img/master_Vova.jpg" alt="Vova" />
             <div class="master__name">Владимир</div>
             <div class="master__descr">Старший барбер</div>
-            <button class="btn btn_220w btn_center">записаться</button>
+            <button class="btn btn_220w btn_center btn_modal">
+              записаться
+            </button>
           </div>
         </div>
       </div>
@@ -369,6 +375,29 @@
     </footer>
     <div class="pageUp">
       <a href="#"><img src="./icons/pageUp.svg" alt="up" /></a>
+    </div>
+    <div class="modal">
+      <div class="close"><img src="./icons/close.svg" alt="close" /></div>
+      <div class="container">
+        <h2 class="title title__form">Записаться на стрижку</h2>
+        <form action="#" method="post" class="form__wrapper">
+          <div class="form__left">
+            <input name="name" type="text" placeholder="Имя" />
+            <input name="tel" type="tel" placeholder="+7 (___) ___-__-__" />
+            <input name="email" type="email" placeholder="E-Mail" />
+          </div>
+          <div class="form__right">
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Коментарий"
+            ></textarea>
+            <button class="btn btn_220w btn_50h">ОТПРАВИТЬ</button>
+          </div>
+        </form>
+      </div>
     </div>
     <script src="js/script.js"></script>
   </body>
